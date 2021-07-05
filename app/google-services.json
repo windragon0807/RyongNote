@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "247452479455",
+    "project_id": "coherent-cinema-309513",
+    "storage_bucket": "coherent-cinema-309513.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:247452479455:android:e189a38e0d7a768c91de6a",
+        "android_client_info": {
+          "package_name": "org.techtown.firebasenote"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "247452479455-eumncsfiqo9i2o7q9qnallqarba9k734.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCO08PbWo7ddn7rA5EtOuhAgxishdp78G8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "247452479455-eumncsfiqo9i2o7q9qnallqarba9k734.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:247452479455:android:cad82d0f0fc09cd091de6a",
+        "android_client_info": {
+          "package_name": "org.techtown.ryongnote"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "247452479455-eumncsfiqo9i2o7q9qnallqarba9k734.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCO08PbWo7ddn7rA5EtOuhAgxishdp78G8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "247452479455-eumncsfiqo9i2o7q9qnallqarba9k734.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

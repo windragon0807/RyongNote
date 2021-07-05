@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:id="@+id/drawer" >
+    <!-- DrawerLayout : 평소에는 화면의 한 쪽에 숨겨져 있다가 사용자가 액션을 취하면 화면에 나타나는 기능을 만들 수 있게 해주는 레이아웃
+         DrawerLayout 자체로 서랍과 같은 기능을 하는 것이 아니라 하단에 추가된 자식이 서랍과 같은 동작을 수행하도록 만들어준다.
+         DrawerLayout에는 최소 2개의 자식이 존재해야 한다. 하나는 Drawer 역할을 수행할 화면이고, 다른 하나는 Drawer가 닫혀있는 상태에서 표시될 주 화면이다.
+         첫 번째 자식이 주 화면이 되고, 그 아래 layout_gravity 속성을 가지는 자식이 Drawer로 사용된다. -->
+
+    <include
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        layout="@layout/content_main" />
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        android:layout_gravity="start"
+        app:headerLayout="@layout/nav_header"
+        app:menu="@menu/nav_menu" /> <!--
+        layout_gravity="start" : Drawer를 왼쪽에서 가져온다.
+        -->
+
+</androidx.drawerlayout.widget.DrawerLayout>
